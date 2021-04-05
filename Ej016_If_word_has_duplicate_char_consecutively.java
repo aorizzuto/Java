@@ -1,0 +1,21 @@
+public class Ej016_If_word_has_duplicate_char_consecutively {
+	public static void main(String args[]){
+
+		System.out.println(getXO("xoxoxxoxoxoooxooxoxo"));
+		System.out.println(getXO("xxxxoooo"));
+		System.out.println(getXO("xxxooooo"));
+	  }
+	
+	public static boolean doubleLetters(String word) {
+
+		for (int i=0;i<word.length()-1;i++)
+		{
+			if (word.charAt(i) == word.charAt(i+1))
+			{
+				return true;
+			}
+		}
+		
+		return false;
+	}
+}
