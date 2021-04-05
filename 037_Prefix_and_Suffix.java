@@ -8,6 +8,6 @@ public class Program {
 	public static boolean isSuffix(String word, String suffix) {
 		String sx = suffix.replaceAll("-","");
 		
-		return sx.equals(word.substring(word.length() - sx.length() ));
+		return sx.equals(word.substring(word.length()_sx.length() ));
 	}
 }

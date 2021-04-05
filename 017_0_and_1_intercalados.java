@@ -5,7 +5,7 @@ public class Challenge {
 		c0 = count(str,'0');
 		c1 = count(str,'1');
 		
-		int sol = Math.abs(c0 - c1);
+		int sol = Math.abs(c0_c1);
 
 		return sol == 1 || sol == 0;
   }
