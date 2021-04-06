@@ -1,15 +1,16 @@
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 public class Ej014_Get_Even_numbers {
 	public static void main(String args[]){
 
-		System.out.println(getXO("xoxoxxoxoxoooxooxoxo"));
-		System.out.println(getXO("xxxxoooo"));
-		System.out.println(getXO("xxxooooo"));
+		System.out.println(findEvenNums(30));
+		System.out.println(findEvenNums(23));
+		System.out.println(findEvenNums(123));
 	  }
 	
-	public static Integer[] findEvenNums(int num) {
+	public static String findEvenNums(int num) {
 		List<Integer> lst = new ArrayList<>();
 		
 		boolean fin=true;
@@ -33,6 +34,6 @@ public class Ej014_Get_Even_numbers {
 		
 		Integer[] arr = new Integer[lst.size()];
 		lst.toArray(arr);
-		return arr;
+		return Arrays.toString(arr);
 	}
 }
