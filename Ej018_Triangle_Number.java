@@ -1,9 +1,9 @@
 public class Ej018_Triangle_Number {
 	public static void main(String args[]){
 
-		System.out.println(getXO("xoxoxxoxoxoooxooxoxo"));
-		System.out.println(getXO("xxxxoooo"));
-		System.out.println(getXO("xxxooooo"));
+		System.out.println(triangle("xoxoxxoxoxoooxooxoxo"));
+		System.out.println(triangle("xxxxoooo"));
+		System.out.println(triangle("xxxooooo"));
 	  }
 	
 	public static int triangle(int n) {

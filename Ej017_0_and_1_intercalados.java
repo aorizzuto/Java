@@ -2,9 +2,8 @@ public class Ej017_0_and_1_intercalados {
   
 	public static void main(String args[]){
 
-		System.out.println(getXO("xoxoxxoxoxoooxooxoxo"));
-		System.out.println(getXO("xxxxoooo"));
-		System.out.println(getXO("xxxooooo"));
+		System.out.println(canAlternate("0110011011110000"));
+		System.out.println(canAlternate("011011"));
 	  }
 	
 	public static boolean canAlternate(String str) {

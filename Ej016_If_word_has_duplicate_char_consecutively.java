@@ -1,9 +1,8 @@
 public class Ej016_If_word_has_duplicate_char_consecutively {
 	public static void main(String args[]){
 
-		System.out.println(getXO("xoxoxxoxoxoooxooxoxo"));
-		System.out.println(getXO("xxxxoooo"));
-		System.out.println(getXO("xxxooooo"));
+		System.out.println(doubleLetters("Alejandro"));
+		System.out.println(doubleLetters("Omaar"));
 	  }
 	
 	public static boolean doubleLetters(String word) {
