@@ -2,10 +2,8 @@ import java.util.*;
 
 public class Ej024_Return_4_letter_word_from_array {
 	public static void main(String args[]){
-
-		System.out.println(getXO("xoxoxxoxoxoooxooxoxo"));
-		System.out.println(getXO("xxxxoooo"));
-		System.out.println(getXO("xxxooooo"));
+		String[] s = {"ale","eip","seba","omar","diana"};
+		System.out.println(Arrays.toString(isFourLetters(s)));
 	  }
 	
 	public static String[] isFourLetters(String[] s) {

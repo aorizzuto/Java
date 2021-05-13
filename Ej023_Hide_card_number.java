@@ -1,9 +1,9 @@
 public class Ej023_Hide_card_number {
 	public static void main(String args[]){
 
-		System.out.println(getXO("xoxoxxoxoxoooxooxoxo"));
-		System.out.println(getXO("xxxxoooo"));
-		System.out.println(getXO("xxxooooo"));
+		System.out.println(cardHide("123456789"));
+		System.out.println(cardHide("321123321"));
+		System.out.println(cardHide("111113322"));
 	  }
 	
 	public static String cardHide(String card) {

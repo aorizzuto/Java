@@ -1,9 +1,9 @@
 public class Ej019_Halve_count {
 	public static void main(String args[]){
 
-		System.out.println(getXO("xoxoxxoxoxoooxooxoxo"));
-		System.out.println(getXO("xxxxoooo"));
-		System.out.println(getXO("xxxooooo"));
+		System.out.println(halveCount(10,3));
+		System.out.println(halveCount(15,2));
+		System.out.println(halveCount(25,2));
 	  }
 	
 	public static int halveCount(int a, int b) {

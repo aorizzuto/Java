@@ -1,9 +1,9 @@
 public class Ej020_Capitalize_first_letter {
 	public static void main(String args[]){
 
-		System.out.println(getXO("xoxoxxoxoxoooxooxoxo"));
-		System.out.println(getXO("xxxxoooo"));
-		System.out.println(getXO("xxxooooo"));
+		System.out.println(sayHelloBye("Ale",2));
+		System.out.println(sayHelloBye("Seba",1));
+		System.out.println(sayHelloBye("Eip",3));
 	  }
 	
 	public static String sayHelloBye(String name, int num) {

@@ -1,9 +1,9 @@
 public class Ej021_String_alternated_even_odd {
 	public static void main(String args[]){
 
-		System.out.println(getXO("xoxoxxoxoxoooxooxoxo"));
-		System.out.println(getXO("xxxxoooo"));
-		System.out.println(getXO("xxxooooo"));
+		System.out.println(indexShuffle("Alejandro"));
+		System.out.println(indexShuffle("Sebas"));
+		System.out.println(indexShuffle("Abril"));
 	  }
 	
 	public static String indexShuffle(String str) {
