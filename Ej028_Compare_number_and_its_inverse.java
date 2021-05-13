@@ -1,9 +1,9 @@
 public class Ej028_Compare_number_and_its_inverse {
 	public static void main(String args[]){
 
-		System.out.println(getXO("xoxoxxoxoxoooxooxoxo"));
-		System.out.println(getXO("xxxxoooo"));
-		System.out.println(getXO("xxxooooo"));
+		System.out.println(largestSwap(10));
+		System.out.println(largestSwap(4));
+		System.out.println(largestSwap(24));
 	  }
 	
 	public static boolean largestSwap(int num) {

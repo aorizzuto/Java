@@ -1,9 +1,9 @@
 public class Ej026_Remove_vowel_2_ways {
 	public static void main(String args[]){
 
-		System.out.println(getXO("xoxoxxoxoxoooxooxoxo"));
-		System.out.println(getXO("xxxxoooo"));
-		System.out.println(getXO("xxxooooo"));
+		System.out.println(removeVowels("alejandro"));
+		System.out.println(removeVowels("sebastian"));
+		System.out.println(removeVowels("abril"));
 	  }
 	
 	public static String removeVowels(String s) {

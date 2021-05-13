@@ -1,9 +1,9 @@
 class Challenge {
 	public static void main(String args[]){
 
-		System.out.println(getXO("xoxoxxoxoxoooxooxoxo"));
-		System.out.println(getXO("xxxxoooo"));
-		System.out.println(getXO("xxxooooo"));
+		System.out.println(getMiddle("omar"));
+		System.out.println(getMiddle("sebas"));
+		System.out.println(getMiddle("abril"));
 	  }
 	
 	public static String getMiddle(String word) {

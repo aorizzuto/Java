@@ -1,9 +1,8 @@
 public class Ej031_Remove_slide_from_portions {
 	public static void main(String args[]){
 
-		System.out.println(getXO("xoxoxxoxoxoooxooxoxo"));
-		System.out.println(getXO("xxxxoooo"));
-		System.out.println(getXO("xxxooooo"));
+		System.out.println(joinPath("123/234","12/32"));
+		System.out.println(joinPath("12/32","98"));
 	  }
 	
 	public static String joinPath(String portion1, String portion2) {

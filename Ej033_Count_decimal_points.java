@@ -1,9 +1,9 @@
 public class Ej033_Count_decimal_points {
 	public static void main(String args[]){
 
-		System.out.println(getXO("xoxoxxoxoxoooxooxoxo"));
-		System.out.println(getXO("xxxxoooo"));
-		System.out.println(getXO("xxxooooo"));
+		System.out.println(getDecimalPlaces("123.234"));
+		System.out.println(getDecimalPlaces("12.3"));
+		System.out.println(getDecimalPlaces("324"));
 	  }
 	
 	public static int getDecimalPlaces(String num) {

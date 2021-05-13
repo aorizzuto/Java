@@ -1,9 +1,10 @@
+import java.util.Arrays;
+
 public class Ej036_Capitalize_names_in_array {
 	public static void main(String args[]){
+		String[] s = {"Alejandro","Sebastian","abril","omar","Diana","lucia"};
 
-		System.out.println(getXO("xoxoxxoxoxoooxooxoxo"));
-		System.out.println(getXO("xxxxoooo"));
-		System.out.println(getXO("xxxooooo"));
+		System.out.println(Arrays.toString(capMe(s)));
 	  }
 	
 	public static String[] capMe(String[] s) {

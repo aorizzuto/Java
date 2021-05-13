@@ -1,9 +1,8 @@
 public class Ej032_Split_sentence {
 	public static void main(String args[]){
 
-		System.out.println(getXO("xoxoxxoxoxoooxooxoxo"));
-		System.out.println(getXO("xxxxoooo"));
-		System.out.println(getXO("xxxooooo"));
+		System.out.println(grabCity("[alejandro]"));
+		System.out.println(grabCity("[sebastian]"));
 	  }
 	
 	public static String grabCity(String str) {

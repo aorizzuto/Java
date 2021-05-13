@@ -1,9 +1,8 @@
 public class Ej027_Ascii_sum_2_words {
 	public static void main(String args[]){
 
-		System.out.println(getXO("xoxoxxoxoxoooxooxoxo"));
-		System.out.println(getXO("xxxxoooo"));
-		System.out.println(getXO("xxxooooo"));
+		System.out.println(sameAscii("alejandro","jandroale"));
+		System.out.println(sameAscii("sebastian", "tiansebaa"));
 	  }
 	
 	public static boolean sameAscii(String a, String b) {
